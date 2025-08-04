@@ -1,5 +1,5 @@
 # app-agreements
-Application descriptor repository for the FOLIO OA application.
+Application descriptor repository for the FOLIO Agreements application.
 
 ## Modules
 
