@@ -5,7 +5,7 @@ scan_config:
     - release-update
   pr_reviewers:
     - folio-org/kitfox
-    - folio-org/acquisitions
+    - folio-org/erm
 
 release_branches:
 #  - R2-2024
