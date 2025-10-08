@@ -1,6 +1,6 @@
 {
   "name": "app-agreements",
-  "version": "1.0.0-SNAPSHOT.100100000001062",
+  "version": "1.0.0-SNAPSHOT.100100000001128",
   "description": "Application descriptor for the FOLIO Agreements application",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_agreements",
-      "version": "12.1.1099000000001310"
+      "version": "12.1.1099000000001345"
     },
     {
       "name": "folio_plugin-find-agreement",
