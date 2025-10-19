@@ -1,0 +1,47 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-licenses",
+      "version": "^1.0.0",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-agreements",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_agreements",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "folio_plugin-find-agreement",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "folio_plugin-find-eresource",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "folio_local-kb-admin",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "folio_erm-comparisons",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ]
+}
