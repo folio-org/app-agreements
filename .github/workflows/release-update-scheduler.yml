@@ -46,8 +46,8 @@ jobs:
         env:
           UPDATE_MAP: ${{ steps.get-config.outputs.update_branches_map }}
         run: |
-          INCLUDES=$(echo "$UPDATE_MAP" | jq -c '[to_entries[] | {branch: .key, update_branch: .value}]')
-          
+          INCLUDES=$(echo "$UPDATE_MAP" | jq -c '[to_entries[] | {branch: .key, update_branch: (.value // "")}]')
+
           echo "includes=$INCLUDES" >> "$GITHUB_OUTPUT"
           echo "::notice::Matrix includes: $INCLUDES"
 
