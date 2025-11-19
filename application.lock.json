@@ -1,6 +1,6 @@
 {
   "name": "app-agreements",
-  "version": "1.0.0-SNAPSHOT.100200000000972",
+  "version": "1.0.0-SNAPSHOT.100200000000976",
   "description": "Application descriptor for the FOLIO Agreements application",
   "platform": "complete",
   "dependencies": [
@@ -30,7 +30,7 @@
     },
     {
       "name": "folio_local-kb-admin",
-      "version": "9.1.1099000000000153"
+      "version": "9.1.1099000000000160"
     },
     {
       "name": "folio_erm-comparisons",
