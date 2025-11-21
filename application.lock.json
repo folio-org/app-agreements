@@ -1,6 +1,6 @@
 {
   "name": "app-agreements",
-  "version": "1.0.0-SNAPSHOT.100200000000978",
+  "version": "1.0.0-SNAPSHOT.100200000001084",
   "description": "Application descriptor for the FOLIO Agreements application",
   "platform": "complete",
   "dependencies": [
@@ -18,23 +18,23 @@
   "uiModules": [
     {
       "name": "folio_agreements",
-      "version": "12.1.1099000000001649"
+      "version": "12.1.1099000000001663"
     },
     {
       "name": "folio_plugin-find-agreement",
-      "version": "12.1.109900000000111"
+      "version": "12.1.1099000000000119"
     },
     {
       "name": "folio_plugin-find-eresource",
-      "version": "8.1.1099000000000110"
+      "version": "8.1.1099000000000116"
     },
     {
       "name": "folio_local-kb-admin",
-      "version": "9.1.1099000000000160"
+      "version": "9.1.1099000000000164"
     },
     {
       "name": "folio_erm-comparisons",
-      "version": "8.1.1099000000000157"
+      "version": "8.1.1099000000000161"
     }
   ]
 }
