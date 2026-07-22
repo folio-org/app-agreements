@@ -1,12 +1,12 @@
 {
-  "id" : "app-agreements-1.1.0-SNAPSHOT.100200000010858",
+  "id" : "app-agreements-1.1.0-SNAPSHOT.100200000010883",
   "name" : "app-agreements",
-  "version" : "1.1.0-SNAPSHOT.100200000010858",
+  "version" : "1.1.0-SNAPSHOT.100200000010883",
   "description" : "Application descriptor for the FOLIO Agreements application",
   "modules" : [ {
-    "id" : "mod-agreements-7.4.0-SNAPSHOT.882",
+    "id" : "mod-agreements-7.4.0-SNAPSHOT.883",
     "name" : "mod-agreements",
-    "version" : "7.4.0-SNAPSHOT.882"
+    "version" : "7.4.0-SNAPSHOT.883"
   } ],
   "uiModules" : [ {
     "id" : "folio_agreements-12.2.1099000000002097",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-agreements-7.4.0-SNAPSHOT.882",
+    "id" : "mod-agreements-7.4.0-SNAPSHOT.883",
     "name" : "mod-agreements",
     "requires" : [ {
       "id" : "okapi",
@@ -1420,7 +1420,7 @@
       "visible" : false
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-agreements:7.4.0-SNAPSHOT.882",
+      "dockerImage" : "folioci/mod-agreements:7.4.0-SNAPSHOT.883",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
