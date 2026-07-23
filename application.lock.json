@@ -1,7 +1,7 @@
 {
-  "id" : "app-agreements-1.1.0-SNAPSHOT.100200000010883",
+  "id" : "app-agreements-1.1.0-SNAPSHOT.100200000010897",
   "name" : "app-agreements",
-  "version" : "1.1.0-SNAPSHOT.100200000010883",
+  "version" : "1.1.0-SNAPSHOT.100200000010897",
   "description" : "Application descriptor for the FOLIO Agreements application",
   "modules" : [ {
     "id" : "mod-agreements-7.4.0-SNAPSHOT.883",
@@ -9,9 +9,9 @@
     "version" : "7.4.0-SNAPSHOT.883"
   } ],
   "uiModules" : [ {
-    "id" : "folio_agreements-12.2.1099000000002097",
+    "id" : "folio_agreements-12.2.1099000000002107",
     "name" : "folio_agreements",
-    "version" : "12.2.1099000000002097"
+    "version" : "12.2.1099000000002107"
   }, {
     "id" : "folio_plugin-find-agreement-12.2.1099000000000170",
     "name" : "folio_plugin-find-agreement",
@@ -1457,7 +1457,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_agreements-12.2.1099000000002097",
+    "id" : "folio_agreements-12.2.1099000000002107",
     "name" : "ERM agreement functionality for Stripes",
     "requires" : [ {
       "id" : "erm",
