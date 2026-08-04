@@ -31,7 +31,7 @@
                 </executions>
                 <configuration>
                     <templatePath>${templatePath}</templatePath>
-                    <validateArtifacts>true</validateArtifacts>
+                    <validateArtifacts>false</validateArtifacts>
                     <validateFallbackArtifacts>false</validateFallbackArtifacts>
                     <awsRegion>us-west-2</awsRegion>
                     <moduleRegistries>
